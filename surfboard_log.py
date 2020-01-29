@@ -2,7 +2,8 @@ import re, urllib.request, datetime
 from bs4 import BeautifulSoup
 
 ## set modem's IP Address
-ip = 'http://192.168.100.1/cmSignalData.htm'
+#ip = 'http://192.168.100.1/cmSignalData.htm'
+ip = 'http://192.168.100.1/connectionStatus.newui?_=1580336028375'
 
 date = ('Data logged: {:%Y-%b-%d %H:%M:%S}'.format(datetime.datetime.now()))
 
