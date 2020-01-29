@@ -3,6 +3,11 @@ from bs4 import BeautifulSoup
 
 ## set modem's IP Address
 #ip = 'http://192.168.100.1/cmSignalData.htm'
+#need form authentication for login page
+#need to update elments for the difference webpage layout
+#dockerize py to run in docker
+#upload docker image to nas
+
 ip = 'http://192.168.100.1/connectionStatus.newui?_=1580336028375'
 
 date = ('Data logged: {:%Y-%b-%d %H:%M:%S}'.format(datetime.datetime.now()))
